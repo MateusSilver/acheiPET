@@ -34,3 +34,65 @@
 * Então: Seré redirecionado para a página de login
 
 -----
+
+
+#### Funcionalidade FG03a: Criar postagem sobre animal perdido
+
+**Cenario**: FG03a-C01 Usuário preenche dados suficientes
+* Dado: que o usuário está na página Home
+* e: ativa a funcionalidade de criar um novo post
+* Quando: Preenche os dados de animal
+* e: Marca como animal perdido
+* e: Clicar em postar
+* Então: Postagem é adicionada ao feed de postagens local marcado como animal perdido.
+
+**Cenario**: FG03a-C02 Usuário preenche dados insuficientes
+* Dado: que o usuário está na página home
+* e: ativa a funcionalidade de criar um novo post
+* Quando: Preenche os dados de animal incsuficientes
+* e: Marca como animal perdido
+* e: Clicar em postar
+* Então: Postagem é adicionada ao feed de postagens local marcado como animal perdido, estando presente em feed de animais perdidos.
+
+-----
+#### Funcionalidade FG03b: Criar postagem sobre animal achado
+
+**Cenario**: FG03b-C01 Usuário preenche dados suficientes
+* Dado: que o usuário está na página Home
+* e: ativa a funcionalidade de criar um novo post
+* Quando: Preenche os dados de animal
+* e: Marca como animal achado
+* e: Clicar em postar
+* Então: Postagem é adicionada ao feed de postagens local marcado como animal achado.
+
+**Cenario**: FG03b-C02 Usuário preenche dados insuficientes
+* Dado: que o usuário está na página home
+* e: ativa a funcionalidade de criar um novo post
+* Quando: Preenche os dados de animal incsuficientes
+* e: Marca como animal achado
+* e: Clicar em postar
+* Então: Postagem é adicionada ao feed de postagens local marcado como animal achado, estando presente em feed de animais achados.
+
+-----
+#### Funcionalidade FG04: Responder a postagens
+
+**Cenario**: FG04-C01 Usuario responde postagem 
+* Dado: que o usuario clica em uma postagem do feed da pagina home
+* e: clica em responder postagem
+* Quando preenche uma resposta em texto sobre a postagem
+* e: clica em enviar resposta
+* Então: a Resposta é enviada para o usuário autor da postagem, aparecendo na lista de notificações
+
+
+**Cenario**: FG04-C02 Usuario cancela resposta a postagem
+* Dado: que o usuario clica na postagem do feed da pagina home
+* e: clica em responder postagem
+* Quando preenche uma resposta em texto sobre a postagem
+* e: clica em cancelar
+* Então: ele retorna para o feed da página Home
+
+-----
+#### Funcionalidade FG05: Receber notificações sobre respostas
+
+-----
+#### Funcionalidade FG06: 
