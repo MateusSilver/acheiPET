@@ -94,5 +94,38 @@
 -----
 #### Funcionalidade FG05: Receber notificações sobre respostas
 
+**Cenario**: FG05-C01 Usuario visualiza a notificação
+* Dado: que o usuario está logado no sistema
+* Quando estiver em uma página qualquer
+* Então ele pode ver uma marcação em um sino indicando que ele tem notificações novas
+
 -----
-#### Funcionalidade FG06: 
+#### Funcionalidade FG06a: Visualizar notificações novas 
+**Cenario**: FG06a-C01 Usuario visualiza notificações
+* Dado que o usuario está logado no sistema
+* Quando abre a aba de notificações
+* Então ele consegue visualizar navas notificações acerca de respostas de posts e etc.
+* E as marcações de novas visualizações somem
+
+-----
+#### Funcionalidade FG06b: Verifica notificações
+**Cenario**: FG06b-C01 usuario verifica notificações
+* Dado que o usuario está logado no sistema
+* Quando abre a aba de notificações
+* Então ele consegue visualizar o historico de notificações acerca de respostas de posts e etc.
+
+-----
+#### Funcionalidade FG07: abrir conversa sobre animal perdido ou achado
+**Cenario**: FG07-C01 usuario abre notificações de respostas de posts
+* Dado que o usuario clica em uma resposta
+* Então ele abre a janela de conversa com o usuário
+
+-----
+#### Funcionalidade FG08: responder conversa sobre animal
+**Cenario**: FG08-C01 usuario abre janela de conversa com outro usuario
+* Dado que o usuario digita um texto de resposta
+* e clica em enviar
+* Então a resposta aparecerá em tela e o usuario de destino será notificado
+
+
+### Funcionalidade FG08: Excluir postagem
