@@ -126,6 +126,25 @@
 * Dado que o usuario digita um texto de resposta
 * e clica em enviar
 * Então a resposta aparecerá em tela e o usuario de destino será notificado
+* 
+**Cenario**: FG08-C02 usuario abre janela de conversa com outro usuario
+* Dado que o usuario digita um texto de resposta
+* e clica em cancelar
+* Então a janela de conversa sobre animal se fecha e a resposta é salva como rascunho
+-----
 
+### Funcionalidade FG09: Excluir postagem
+**Cenario**: FG09-C01 usuario é dono da postagem e está na janela de postagem
+* Dado que o usuario está logado no sistema
+* e a postagem pertence a ele
+* Quando clica no menu de detalhes sobre a postagem
+* e clica em excluir a postagem
+* então a postagem é apagada
 
-### Funcionalidade FG08: Excluir postagem
+Cenario**: FG09-C02 usuario não é dono da postagem e está na janela de postagem
+* Dado que o usuario está logado no sistema
+* e a postagem não pertence a ele
+* Quando clica no menu de detalhes sobre a postagem
+* então ele não visualiza opções de exclusão da postagem
+
+-----
