@@ -141,7 +141,7 @@
 * e clica em excluir a postagem
 * então a postagem é apagada
 
-Cenario**: FG09-C02 usuario não é dono da postagem e está na janela de postagem
+**Cenario**: FG09-C02 usuario não é dono da postagem e está na janela de postagem
 * Dado que o usuario está logado no sistema
 * e a postagem não pertence a ele
 * Quando clica no menu de detalhes sobre a postagem
